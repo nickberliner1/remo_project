@@ -1,0 +1,133 @@
+.user-join,.user-leave {
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border-style: solid;
+    border-width: 1px;
+    @include border-radius(4px);
+    padding: 5px 5px 60px 60px;
+    .wrapper {
+        width: 100px;
+        .container {
+            height: 75px;
+        }
+    }
+    a {
+        text-shadow:none;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+.broadcast-start,.broadcast-end {
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border-style: solid;
+    border-width: 1px;
+    @include border-radius(4px);
+    padding: 5px 60px 60px 5px;
+    .wrapper {
+        width: 100px;
+        .container {
+            height: 75px;
+        }
+    }
+    a {
+        text-shadow:none;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+.user-connection-issue,.other-user-connection-issue {
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border-style: solid;
+    border-width: 1px;
+    @include border-radius(4px);
+    padding: 60px 5px 5px 60px;
+    .wrapper {
+        width: 100px;
+        .container {
+            height: 75px;
+        }
+    }
+    a {
+        text-shadow:none;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+.user-webcam-issue,.other-user-webcam-issue {
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border-style: solid;
+    border-width: 1px;
+    @include border-radius(4px);
+    padding: 60px 5px 5px 60px;
+    .wrapper {
+        width: 100px;
+        .container {
+            height: 75px;
+        }
+    }
+    a {
+        text-shadow:none;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.user-join {
+    background-color: rgb(17, 192, 61);
+    color: white;
+    &:hover{
+        background: rgb(73, 255, 118);
+    }
+}
+.user-leave {
+    background-color: rgb(235, 72, 72);
+    color: white;
+    &:hover {
+        background: rgb(255, 125, 125);
+    }
+}
+.broadcast-start {
+    background-color: rgb(17, 192, 61);
+    color: white;
+    &:hover {
+        background: rgb(73, 255, 118);
+    }
+}
+.broadcast-end {
+    background-color: rgb(235, 72, 72);
+    color: white;
+    &:hover {
+        background: rgb(255, 125, 125);
+    }
+}
+.user-connection-issue {
+    background-color: rgb(163, 0, 0);
+    color: white;
+    &:hover {
+        background: rgb(255, 0, 0);
+    }
+}
+.other-user-connection-issue {
+    background-color: rgb(114, 0, 0);
+    color: white;
+    &:hover {
+        background: rgb(184, 28, 28);
+    }
+}
+.user-webcam-issue {
+    background-color: rgb(163, 0, 0);
+    color: white;
+    &:hover {
+        background: rgb(255, 0, 0);
+    }
+}
+.other-user-webcam-issue {
+    background-color: rgb(114, 0, 0);
+    color: white;
+    &:hover {
+        background: rgb(184, 28, 28);
+    }
+}
